@@ -125,7 +125,7 @@ class okf_sorsolo(QtWidgets.QMainWindow):
     def report_a_problem(self):
         webbrowser.open('https://github.com/JazzBB/MirrorMatch/issues')
     def about(self):
-        QMessageBox.about(self,'MirrorMatch 1.0.1.181207','A program azért készült,\nhogy gyorsítson egy-egy versenyen,\nvalamint a pontszámok menthetőek legyenek\n\nKód & Design:Bencsik Balázs\nE-Mail:bazsi@otkutya.hu\n\n\n 2018 © Otkutya.hu')
+        QMessageBox.about(self,'MirrorMatch 1.0.1.181210000','A program azért készült,\nhogy gyorsítson egy-egy versenyen,\nvalamint a pontszámok menthetőek legyenek\n\nKód & Design:Bencsik Balázs\nE-Mail:bazsi@otkutya.hu\n\n\n 2018 © Otkutya.hu')
     
     def terminate(self):
         exit(0)
