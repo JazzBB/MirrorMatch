@@ -586,6 +586,8 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
     <addaction name="otkutyalink"/>
     <addaction name="separator"/>
     <addaction name="actionTool"/>
+    <addaction name="separator"/>
+    <addaction name="actionProbl_ma_bejelent_s"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuAbout"/>
@@ -608,6 +610,11 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
   <action name="actionTool">
    <property name="text">
     <string>Tool</string>
+   </property>
+  </action>
+  <action name="actionProbl_ma_bejelent_s">
+   <property name="text">
+    <string>Probléma bejelentés</string>
    </property>
   </action>
  </widget>

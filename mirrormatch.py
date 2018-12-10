@@ -1,5 +1,7 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
+
 # -*- coding: utf-8 -*-
+
 
 import os
 import random
@@ -120,6 +122,8 @@ class okf_sorsolo(QtWidgets.QMainWindow):
         f.close()
     def open_ot_kutya(self):
         webbrowser.open('https://otkutya.hu')
+    def report_a_problem(self):
+        webbrowser.open('https://github.com/JazzBB/MirrorMatch/issues')
     def about(self):
         QMessageBox.about(self,'MirrorMatch 1.0.1.181207','A program azért készült,\nhogy gyorsítson egy-egy versenyen,\nvalamint a pontszámok menthetőek legyenek\n\nKód & Design:Bencsik Balázs\nE-Mail:bazsi@otkutya.hu\n\n\n 2018 © Otkutya.hu')
     
@@ -135,6 +139,7 @@ class okf_sorsolo(QtWidgets.QMainWindow):
         self.pontszamok_mentese.triggered.connect(self.pontszammentes)
         self.otkutyalink.triggered.connect(self.open_ot_kutya)
         self.actionTool.triggered.connect(self.about)
+        self.actionProbl_ma_bejelent_s.triggered.connect(self.report_a_problem)
         
        
 
